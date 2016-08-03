@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/constraintLayout"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <TextView
+        android:text="TextView"
+        tools:text="Game Title"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:id="@+id/tv_title"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="16dp"
+        android:gravity="center"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        tools:text="system"
+        android:id="@+id/tv_system"
+        android:gravity="center"
+        android:layout_marginLeft="32dp"
+        />
+</LinearLayout>

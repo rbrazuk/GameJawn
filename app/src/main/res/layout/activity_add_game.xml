@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_add_game"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rbrazuk.gamejawn.AddGameActivity">
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/til_title"
+        android:textSize="16sp"
+        android:hint="title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/til_system"
+        android:textSize="16sp"
+        android:hint="system"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/til_genre"
+        android:textSize="16sp"
+        android:hint="genre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/til_year"
+        android:textSize="16sp"
+        android:hint="year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/bt_add"
+        android:text="Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
